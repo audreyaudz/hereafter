@@ -1,0 +1,27 @@
+{
+  "name": "audz-template",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "@headlessui/vue": "^1.5.0",
+    "@inkline/inkline": "^3.0.8",
+    "ant-design-vue": "^3.1.1",
+    "element-plus": "^2.1.8",
+    "vue": "^3.2.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "sass": "^1.50.0",
+    "tailwindcss": "^3.0.23",
+    "unplugin-vue-components": "^0.18.5",
+    "vite": "^2.9.1"
+  },
+  "packageManager": "yarn@3.2.0"
+}

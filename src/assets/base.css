@@ -1,0 +1,26 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.centerdiv
+{
+    max-width: 1200px; 
+    margin: auto
+}
+
+.bg-pos-top
+{
+    background-position:top !important;
+}
+
+.bg-pos-center
+{
+    background-position:center !important;;
+}
+
+.bg-pos-bottom
+{
+    background-position:bottom;
+}
