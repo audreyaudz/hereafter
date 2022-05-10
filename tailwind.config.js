@@ -19,6 +19,7 @@ module.exports = {
             'oranged': '#F8B18E',
             'darken': '#25353D',
             'yellowed': '#FDF9EE',
+            'browned': '#C99175',
           }
       },
     },

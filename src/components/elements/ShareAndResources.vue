@@ -1,20 +1,19 @@
 <template >
-       <i-header
+       <div
           color="light"
           cover
           class="
-          mt-20
             _text-align:left
             -fluid
             text
             bg-pos-center
             max-h-full
-            z-20
+            mt-20
             bg-inherit
           "
         >
         <div class="overflow-hidden flex-1 flex flex-row bg-darken ">
-          <div class="w-full sm:w-1/3 p-6 mt-6">
+          <div class="w-full sm:w-1/3 p-6">
             <h3 class="text-yellowed font-bold leading-none mb-3">
               Share Your Story
             </h3>
@@ -45,12 +44,12 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
                 amet ligula.
                 <br />
-                <button class="bg-yellow border rounded text-yellowed mt-3 py-1 px-8">Find Out More
-                </button>
+                <router-link to="resources" class="bg-yellow border rounded text-yellowed mt-3 py-1 px-8 ">See More Resources</router-link>
+
               </p>
             </div>
           </div>
         </div>
-        </i-header>
+        </div>
 
 </template>

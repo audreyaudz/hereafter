@@ -1,6 +1,6 @@
 <template  >
      <h1 class='text-center mb-6 pt-6'> Featured Chapters </h1>
-         <div class="justify-center flex flex-row flex-wrap p-4 mb-12 w-full items-start ">
+         <div class="justify-center flex flex-row flex-wrap p-4 mb-8 w-full items-start ">
             <i-card class="w-80 h-96 mx-4 mt-5 mb-5 order-1" color="light">
               <template #image class="bgha-card-header">
                 <img

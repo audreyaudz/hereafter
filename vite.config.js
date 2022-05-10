@@ -11,6 +11,12 @@ import {
 
 // https://vitejs.dev/config/
 export default defineConfig({
+
+  server:
+  {
+    port: 3030,
+    open: true
+  },
   plugins: [
     Components({
       resolvers: [
