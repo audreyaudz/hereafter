@@ -5,10 +5,15 @@ module.exports = {
     ],
     mode: 'jit',
     theme: {
-      extend: {        
+      extend: {
           backgroundImage: {
+            'halogo': "url(./img/halogo.png)",
+            'halogosm': "url(./img/halogo-small.png)",
             'header-hero': "url('./img/header.jpg')",
-            'singapore-hero': "url('./img/singapore.jpg')"
+            'ha-hero': "url('./img/hahero.jpg')",
+
+
+
           }
       },
     },

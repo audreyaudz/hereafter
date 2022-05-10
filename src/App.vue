@@ -6,15 +6,15 @@
 
 
 <template>
-  <header class="centerdiv">           
-      <Navbar   color="-light" />    
+  <header class="centerdiv">
+      <Navbar color="dark"  />
   </header>
 
   <main class="h-full z-0 " >
     <Content class='h-full'/>
 
-        
-      
+
+
   </main>
 </template>
 
