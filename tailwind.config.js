@@ -11,7 +11,7 @@ module.exports = {
             'halogosm': "url(./img/halogo-small.png)",
             'header-hero': "url('./img/header.jpg')",
             'ha-hero': "url('./img/hahero.jpg')",
-
+            'ha-better-sg': "url('./img/betterwordlogo.png')"
 
 
           }

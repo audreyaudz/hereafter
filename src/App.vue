@@ -10,12 +10,16 @@
       <Navbar color="dark"  />
   </header>
 
+
   <main class="h-full z-0 " >
-    <Content class='h-full'/>
-
-
-
+    <router-view></router-view>
+    <!--Home class='h-full'/ -->
   </main>
+
+  <footer>
+    <Footer color="dark"> </Footer>
+  </footer>
+
 </template>
 
 <style>

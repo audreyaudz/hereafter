@@ -9,6 +9,7 @@
             text
             bg-pos-center
             max-h-full
+            z-20
           "
         >
           <h2>Sparking End-Of-Life Conversations Here,</h2>

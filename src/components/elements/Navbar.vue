@@ -1,11 +1,13 @@
 <template  >
 <i-navbar>
-    <i-navbar-brand to="/" class='bg-halogosm  w-56 h-16 cover bg-no-repeat -rotate-6'>
-    </i-navbar-brand>
+    <router-link to="/">
+        <i-navbar-brand class='bg-halogosm  w-56 h-16 cover bg-no-repeat -rotate-6'>
+        </i-navbar-brand>
+    </router-link>
     <i-navbar-collapsible class="_justify-content:flex-end">
         <i-nav>
 
-            <i-dropdown>
+            <i-dropdown class="z-10">
                 <i-nav-item stop-propagation>Chapters</i-nav-item>
                 <template #body>
                     <i-dropdown-item>Action</i-dropdown-item>
@@ -15,11 +17,13 @@
                     <i-dropdown-item>Separated item</i-dropdown-item>
                 </template>
             </i-dropdown>
-            <i-nav-item to="/">
-                Resources
-            </i-nav-item>
+            <router-link to="resources">
+                <i-nav-item>
+                    Resources
+                </i-nav-item>
+            </router-link>
             <i-nav-item class="flex-none" >
-                 <i-textarea v-model="value" size='sm' rows='1' clearable placeholder="Search Chapters" class="resize-none inline-block">
+                 <i-textarea  size='sm' rows='1' clearable placeholder="Search Chapters" class="resize-none inline-block">
                  <template  #append>
                     <i-button>🔍</i-button>
                   </template>
