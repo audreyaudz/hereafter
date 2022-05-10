@@ -6,7 +6,8 @@
 
 
 <template>
-  <header class="centerdiv">
+  <div class="centerdiv">
+  <header>
       <Navbar color="dark"  />
   </header>
 
@@ -19,7 +20,7 @@
   <footer>
     <Footer color="dark"> </Footer>
   </footer>
-
+</div>
 </template>
 
 <style>

@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview --port 5050"
+    "preview": "vite preview --port 5050",
+    "deploy": "yarn build --emptyOutDir && scp -r dist/* docker-amk.dmnation.org:/home/sysop/public_html"
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",

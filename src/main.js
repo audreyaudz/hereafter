@@ -20,6 +20,7 @@ import Home from './components/pages/Home.vue';
 import TermsOfService from './components/pages/TermsOfService.vue';
 import About from './components/pages/About.vue';
 import Resources from './components/pages/Resources.vue';
+import Chapter from './components/pages/Chapter.vue';
 import Chapters from './components/pages/Chapters.vue';
 import Contact from './components/pages/Contact.vue';
 
@@ -29,6 +30,7 @@ const routes = [
     {path: '/tos', component: TermsOfService },
     {path: '/about', component: About},
     {path: '/chapters', component: Chapters},
+    {path: '/chapter', component: Chapter},
     {path: '/resources', component: Resources},
     {path: '/contact', component: Contact},
 ];

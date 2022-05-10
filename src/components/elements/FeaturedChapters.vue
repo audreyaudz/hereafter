@@ -1,7 +1,7 @@
 <template  >
      <h1 class='text-center mb-6 mt-6'> Featured Chapters </h1>
-         <div class="_display:flex _flex-direction:row mb-12">
-            <i-card class="w-96 mx-3" color="light">
+         <div class="justify-center flex flex-row flex-wrap mb-10 w-full items-start ">
+            <i-card class="w-80 h-96 mx-2 mt-5 order-1" color="light">
               <template #image class="bgha-card-header">
                 <img
                   src= "/img/card-header-1.jpg"
@@ -12,11 +12,11 @@
               <h4 class="card-title">A Chapter</h4>
               <p class="card-subtitle">Lorem</p>
               <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, ...
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium excepturi asdf...
               </p>
-              <a class="card-link" href="/">Read Morek</a>
+              <router-link class="card-link" to="chapter?id=1">View Chapter</router-link>
             </i-card>
-            <i-card class="w-96 mx-3" color="light">
+            <i-card class="w-80 h-96 mx-2 mt-5  order-2" color="light">
               <template #image class="bgha-card-header">
                 <img
                   src= "/img/card-header-2.jpg"
@@ -30,9 +30,9 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a class="card-link" href="https://inkline.io">Example Link</a>
+              <router-link class="card-link" to="chapter?id=2">View Chapter</router-link>
             </i-card>
-            <i-card class="w-96 mx-3" color="light">
+            <i-card class="w-80 h-96 mx-2 mt-5 order-3" color="light">
               <template #image class="bgha-card-header">
                 <img
                   src= "/img/card-header-3.jpeg"
@@ -46,7 +46,7 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a class="card-link" href="https://inkline.io">Example Link</a>
+              <router-link class="card-link" to="chapter?id=3">View Chapter</router-link>
             </i-card>
           </div>
           <div class="text-center mr-5">
