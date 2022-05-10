@@ -17,7 +17,7 @@ A better.sg project to spark end-of-life conversations.
 yarn install
 ```
 
-## Develpment
+## Development
 
 ```
 yarn dev
