@@ -1,6 +1,6 @@
 <!-- This is the welcome page ('/') of Here:After -->
 <template>
-  <div class="centerdiv h-full">
+  <div class="centerdiv h-full bg-amber-50">
     <i-layout class="h-full">
       <i-layout-content>
         <HereAfterHero/>        <!-- Main Hero Unit -->
@@ -9,7 +9,6 @@
         <ShareAndResources/>    <!-- Share your story / Resources-->
         <div class="h-8" />     <!-- blank space 8px-->
       </i-layout-content>
-
     </i-layout>
   </div>
 </template>

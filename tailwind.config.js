@@ -14,6 +14,11 @@ module.exports = {
             'ha-better-sg': "url('/img/betterwordlogo.png')"
 
 
+          },
+          colors: {
+            'oranged': '#F8B18E',
+            'darken': '#25353D',
+            'yellowed': '#FDF9EE',
           }
       },
     },

@@ -8,10 +8,9 @@ A better.sg project to spark end-of-life conversations.
 
 # Tech
 
-**Frontend**: Single Page App using Vue3, TailwindCss, Vite.js
+**Frontend**: Single Page App using Vue3, TailwindCss, Vite.js. FontAwesome 6 Brand Icons are available (included via index.hmtl header from CDN)
 
 **Backend**: TBD
-
 
 # Recommended Setup
 

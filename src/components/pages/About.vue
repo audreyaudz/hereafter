@@ -1,7 +1,5 @@
 <!-- This is the About page ('/about') of Here:After -->
-
 <template>
-
   <i-layout class="centerdiv h-full text-center">
   <i-layout-header>
   <h1> About </h1>
