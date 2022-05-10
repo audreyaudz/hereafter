@@ -1,6 +1,6 @@
 <template >
        <i-header
-          color="secondary"
+          color="dark"
           cover
           class="
           mt-20

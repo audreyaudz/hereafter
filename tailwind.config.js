@@ -7,11 +7,11 @@ module.exports = {
     theme: {
       extend: {
           backgroundImage: {
-            'halogo': "url(./img/halogo.png)",
-            'halogosm': "url(./img/halogo-small.png)",
-            'header-hero': "url('./img/header.jpg')",
-            'ha-hero': "url('./img/hahero.jpg')",
-            'ha-better-sg': "url('./img/betterwordlogo.png')"
+            'halogo': "url(/img/halogo.png)",
+            'halogosm': "url(/img/halogo-small.png)",
+            'header-hero': "url('/img/header.jpg')",
+            'ha-hero': "url('/img/hahero.jpg')",
+            'ha-better-sg': "url('/img/betterwordlogo.png')"
 
 
           }

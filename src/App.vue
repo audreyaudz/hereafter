@@ -7,19 +7,19 @@
 
 <template>
   <div class="centerdiv">
-  <header>
-      <Navbar color="dark"  />
-  </header>
+    <header>
+        <Navbar color="dark"  />
+    </header>
 
 
-  <main class="h-full z-0 " >
-    <router-view></router-view>
-    <!--Home class='h-full'/ -->
-  </main>
+    <main class="h-full z-0 " >
+      <router-view></router-view>
+      <!--Home class='h-full'/ -->
+    </main>
 
-  <footer>
-    <Footer color="dark"> </Footer>
-  </footer>
+    <footer>
+      <Footer color="dark"> </Footer>
+    </footer>
 </div>
 </template>
 

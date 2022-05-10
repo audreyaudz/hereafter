@@ -10,7 +10,7 @@
             <i-dropdown class="z-10">
                 <i-nav-item stop-propagation>Chapters</i-nav-item>
                 <template #body>
-                    <i-dropdown-item>Action</i-dropdown-item>
+                    <i-dropdown-item>    <router-link to="/404">Action</router-link></i-dropdown-item>
                     <i-dropdown-item>Another action</i-dropdown-item>
                     <i-dropdown-item disabled>Disabled action</i-dropdown-item>
                     <i-dropdown-divider />

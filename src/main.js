@@ -23,6 +23,7 @@ import Resources from './components/pages/Resources.vue';
 import Chapter from './components/pages/Chapter.vue';
 import Chapters from './components/pages/Chapters.vue';
 import Contact from './components/pages/Contact.vue';
+import FourOhFour from './components/pages/FourOhFour.vue';
 
 // 3. Add the new page to the routes below
 const routes = [
@@ -33,6 +34,7 @@ const routes = [
     {path: '/chapter', component: Chapter},
     {path: '/resources', component: Resources},
     {path: '/contact', component: Contact},
+    {path: '/404', component: FourOhFour},
 ];
 
 const router = VueRouter.createRouter(
