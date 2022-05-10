@@ -3,7 +3,7 @@
 <i-navbar color="light"  :collapse="false" class="inline-flex w-full" >
         <a href="https://better.sg" target="_blank" class="navbar-logo ">
         <i-navbar-brand class='cover w-48 h-16 '>
-          <i-img class="-.fluid h-auto" src="/img/betterwordlogo.png" alt="logo" />
+          <img class="-.fluid h-auto" src="/img/betterwordlogo.png" alt="logo" />
         </i-navbar-brand>
         </a>    
       <i-nav class="justify-items-start" style="line-height: 1px" >
