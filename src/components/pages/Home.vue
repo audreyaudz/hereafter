@@ -7,7 +7,7 @@
         <WavyLine />            <!-- Ornamental/Playful waves under main hero to make page less technical -->
         <FeaturedChapters />    <!-- Featured Chapters Unit-->
         <ShareAndResources/>    <!-- Share your story / Resources-->
-        <div class="h-8" />     <!-- blank space 8px-->
+        <Contact/>
       </i-layout-content>
     </i-layout>
   </div>

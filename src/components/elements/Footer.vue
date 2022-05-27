@@ -1,21 +1,22 @@
 <template>
 
 <i-navbar color="light" :collapse="false" class="inline-flex w-full bg-browned border-0 rounded-none" >
-    <a href="https://better.sg" target="_blank" class="navbar-logo ">
-    <i-navbar-brand class='cover w-48 h-16 '>
-      <img class="-.fluid h-auto" src="/img/betterwordlogo.png" alt="logo" />
+    <i-navbar-brand to="/" class='bg-halogosm w-56 h-16 cover bg-opacity-30 bg-no-repeat'>
     </i-navbar-brand>
-    </a>
-  <i-nav class="justify-items-start" style="line-height: 1px" >
-    <i-nav-item class="mr-4"> <router-link to="/" class="text-white hover:text-yellow-400">Home</router-link></i-nav-item>
+  <i-nav class="justify-items-start _white-space:normal" style="line-height: 10px" >
     <i-nav-item class="mr-4"> <router-link to="chapters" class="text-white hover:text-yellow-400">Chapters</router-link></i-nav-item>
     <i-nav-item class="mr-4"> <router-link to="resources" class="text-white hover:text-yellow-400">Resources</router-link></i-nav-item>
     <i-nav-item class="mr-4"> <router-link to="tos" class="text-white hover:text-yellow-400">Terms of Service</router-link></i-nav-item>
     <i-nav-item class="mr-4"> <router-link to="about" class="text-white hover:text-yellow-400">About Here:After</router-link></i-nav-item>
 </i-nav>
 
-<div class="w-full text-left" style="line-height: 1px"  >
-  <p class="text-xs _text-align:center p-6 text-gray-200" style="line-height: 1px" >
+<div class="w-full mt-6" style="line-height: 1px"  >
+    <a href="https://better.sg" target="_blank" class="navbar-logo ">
+    <i-navbar-brand class='cover w-48 h-16 '>
+      <img class="-.fluid h-auto" src="/img/betterwordlogo.png" alt="logo" />
+    </i-navbar-brand>
+    </a>
+  <p class="text-xs ml-4 text-gray-200" >
     This project is brought to you by Better.sg, a non-profit, volunteer-run
     organisation that drives tech-for-good in Singapore.
   </p>
