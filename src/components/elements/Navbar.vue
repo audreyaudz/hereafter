@@ -28,7 +28,7 @@
             <i-nav-item class="flex-end" >
                 <i-textarea size='sm' rows='1' clearable placeholder="Search Chapters" class="resize-none inline-block">
                 <template  #append>
-                <i-button>🔍</i-button>
+                <i-button><i-icon name="ink-search" /></i-button>
                 </template>
                 </i-textarea>
             </i-nav-item>
