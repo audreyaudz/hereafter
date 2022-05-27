@@ -1,6 +1,6 @@
 <!-- This is the welcome page ('/') of Here:After -->
 <template>
-  <div class="centerdiv h-full bg-amber-50">
+  <div class="centerdiv h-full ">
     <i-layout class="h-full">
       <i-layout-content>
         <HereAfterHero/>        <!-- Main Hero Unit -->

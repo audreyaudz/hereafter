@@ -1,10 +1,8 @@
 <template>
 <i-navbar>
-    <router-link to="/">
-        <i-navbar-brand class='bg-halogosm w-56 h-16 cover bg-opacity-60 bg-no-repeat'>
-        </i-navbar-brand>
-    </router-link>
-    <i-navbar-collapsible class="_justify-content:flex-end bg-opacity-60">
+    <i-navbar-brand to="/" class='bg-halogosm w-56 h-16 cover bg-opacity-30 bg-no-repeat'>
+    </i-navbar-brand>
+    <i-navbar-collapsible class="_justify-content:flex-end">
         <i-nav>
             <router-link to="chapters">
                 <i-nav-item>
