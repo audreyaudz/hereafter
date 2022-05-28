@@ -1,25 +1,65 @@
 <!-- This is the Chapters page ('/chapters') of Here:After -->
 
 <script setup>
+import { ref } from "vue";
 
-import { ref } from 'vue'
-const i = ref(0)
-const options =  { html: true }
+import VueMarkdown from "../elements/VueMarkdown.js";
+const options = { html: true };
 </script>
+
+<script>
+import axios from "axios";
+
+import { getCurrentInstance } from "vue";
+
+export default {
+
+  // The mounted function is called when the component has created it's elements (e.g. divs)
+  // In case of the chapters page, we use this to trigger loading
+  mounted: async function () {
+    this.source =  "loading..."
+    try {
+      let chapterId = parseInt(this.$route.query.id);
+      let chapter = await this.$http.get(`/chapters/${chapterId}.md`);
+      this.source = chapter.data;
+    } catch (ex) {
+
+      // If the server returns 404 (not found), we redirect to the generic 404 page
+      if (ex.response.status === 404)
+      {
+        this.$router.replace('404')
+      }
+      else
+      {
+        // Otherwise for now we display a technical error message to help developers
+        // TODO: User Friendly Errors
+        this.source = "### An Error Occurred: \n ```" + JSON.stringify(ex, null, 2) + "```"
+      }
+    }
+
+  },
+  components: {
+    VueMarkdown,
+  },
+  data() {
+    return {
+      source: "loading..",
+    };
+  },
+};
+</script>
+
+
 
 <template>
   <i-layout class="centerdiv h-full text-center">
-  <i-layout-header>
-  <h1> A Chapter {{this.$route.query.id}} </h1>
-  </i-layout-header>
-  <i-layout-content class="w-full h-100 text-left ml-6 mb-16 ">
-    a
-    <MarkdownRenderer :source="`# This is a markdown heading\n## This is your number: ${i}.\n<i>HTML is allowed via options</i>`"
-    :options="options"/>
-    v
-  </i-layout-content>
-  </i-layout>
+    <i-layout-header>
 
+    </i-layout-header>
+    <i-layout-content class="text-left ml-6 mb-16">
+      <VueMarkdown :source="source" :options="{ html: true }" />
+    </i-layout-content>
+  </i-layout>
 </template>
 
 

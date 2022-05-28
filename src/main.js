@@ -8,6 +8,11 @@ import * as VueRouter  from 'vue-router';
 import { Inkline, components } from '@inkline/inkline';
 import '@inkline/inkline/inkline.scss';
 
+// axios, a library to make ajax calls simple and fun
+
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+
 // Load the app css
 import "./main.scss";
 
@@ -50,6 +55,7 @@ const router = VueRouter.createRouter(
 // Instantiate the app, register middleware and mount it to the root element
 const app = createApp(App);
 
+app.use(VueAxios, axios)
 app.use(router);
 app.use(Inkline, {
     components

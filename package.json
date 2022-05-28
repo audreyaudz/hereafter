@@ -13,9 +13,12 @@
     "@headlessui/vue": "^1.5.0",
     "@inkline/inkline": "^3.0.8",
     "ant-design-vue": "^3.1.1",
+    "axios": "^0.27.2",
     "element-plus": "^2.1.8",
     "markdown-it": "^13.0.1",
+    "markdown-it-emoji": "^2.0.2",
     "vue": "^3.2.31",
+    "vue-axios": "^3.4.1",
     "vue-router": "4"
   },
   "devDependencies": {

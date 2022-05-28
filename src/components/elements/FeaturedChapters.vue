@@ -15,7 +15,7 @@
           Some quick example text to build on the card title and make up
           the bulk of the card's content.
         </p>
-        <router-link class="card-link font-bold" to="chapter?id=2">Click To View Chapter</router-link>
+        <router-link class="card-link font-bold" to="chapter?id=1">Click To View Chapter</router-link>
       </i-card>
       <i-card class="w-80 h-96 mx-4 mt-5 mb-5 order-3" color="light">
         <template #image class="bgha-card-header">
