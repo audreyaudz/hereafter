@@ -75,7 +75,15 @@ The vite server is configured to auto-detect and import components present in th
 ## Coding conventions
 
 - Please keep in style with the existing project.
-- Please code responsive to support mobile and desktop web. 
+- Please code responsive to support mobile and desktop web.
 - Please use inkline/tailwind themes instead of hand-rollig colors wherever possible to account from device dark mode.
 - Please avoid introducing new library dependencies.
 - Please use tailwindCss classes wherever possible. Tailwind is able to strip any unused css from the project and results in cleaner, more stable code
+
+
+## Adding Chapters
+
+While there will eventually be a way to add chapters through the page, this feature is not part of the MVP as implementing it securely is and user-friendly is more time consuming than building all viewer facing features.
+
+For now, Chapters are added by adding a markdown (.md file) to the /public/chapters diretory. We are using markdown as the intermediate format for storing chapters as it allows for a variety of formatting while avoiding the security nightmare that is sanitizing and storing html based content. Eventually we may choose to store chapter information in a database, but strictly speaking the page is unlikely to have the thousands of concurrent viewers at which point this may offer performance benefits.
+
