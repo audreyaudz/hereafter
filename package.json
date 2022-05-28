@@ -14,6 +14,7 @@
     "@inkline/inkline": "^3.0.8",
     "ant-design-vue": "^3.1.1",
     "element-plus": "^2.1.8",
+    "markdown-it": "^13.0.1",
     "vue": "^3.2.31",
     "vue-router": "4"
   },
