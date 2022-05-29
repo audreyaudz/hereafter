@@ -20,6 +20,7 @@ module.exports = {
             'darken': '#25353D',
             'yellowed': '#FDF9EE',
             'browned': '#C99175',
+            'lightb':'#ECE4D6',
           }
       },
     },
