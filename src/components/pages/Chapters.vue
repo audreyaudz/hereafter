@@ -120,7 +120,7 @@ export default {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
             amet ligula.
           </p>
-          <button class="bg-yellow rounded text-darken"><u>Add Chapter</u>
+          <button class="bg-yellow rounded text-darken"><u>Read On</u>
           </button>
         </div>
       </div>
@@ -137,7 +137,7 @@ export default {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
             amet ligula.
           </p>
-          <button class="bg-yellow rounded text-darken"><u>Add Chapter</u>
+          <button class="bg-yellow rounded text-darken"><u>Read On</u>
           </button>
         </div>
       </div>
@@ -157,7 +157,7 @@ export default {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
             amet ligula.
           </p>
-          <button class="bg-yellow rounded text-darken"><u>Add Chapter</u>
+          <button class="bg-yellow rounded text-darken"><u>Read On</u>
           </button>
         </div>
       </div>
@@ -174,7 +174,7 @@ export default {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
             amet ligula.
           </p>
-          <button class="bg-yellow rounded text-darken"><u>Add Chapter</u>
+          <button class="bg-yellow rounded text-darken"><u>Read On</u>
           </button>
         </div>
       </div>
@@ -195,7 +195,7 @@ export default {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
             amet ligula.
           </p>
-          <button class="bg-yellow rounded text-darken"><u>Add Chapter</u>
+          <button class="bg-yellow rounded text-darken"><u>Read On</u>
           </button>
         </div>
       </div>
@@ -212,7 +212,7 @@ export default {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
             amet ligula.
           </p>
-          <button class="bg-yellow rounded text-darken"><u>Add Chapter</u>
+          <button class="bg-yellow rounded text-darken"><u>Read On</u>
           </button>
         </div>
       </div>

@@ -9,8 +9,10 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
         amet ligula.
         <br />
-        <button class="bg-yellow border rounded text-yellowed mt-3 py-1 px-8 ">Add Chapter
-        </button>
+        <router-link to="chapter">     
+          <button class="bg-yellow border rounded text-yellowed mt-3 py-1 px-8 ">Add Chapter
+          </button>
+        </router-link>
       </p>
     </div>
     <div class="w-full sm:w-2/3">
@@ -25,14 +27,16 @@
     </div>
     <div class="w-full sm:w-1/3 p-6 mt-6">
       <div class="align-middle">
-        <h3 class="text-3xl text-yellowed font-bold leading-none mb-3">
-        Resources
-        </h3>
+          <h3 class="text-3xl text-yellowed font-bold leading-none mb-3">
+          Resources
+          </h3>
         <p class="text-yellowed mb-8">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
           amet ligula.
-          <button class="bg-yellow border rounded text-yellowed mt-3 py-1 px-8 ">Find Out More
-        </button>
+          <router-link to="resources">
+            <button class="bg-yellow border rounded text-yellowed mt-3 py-1 px-8 ">Find Out More
+            </button>
+          </router-link> 
         </p>
       </div>
     </div>
