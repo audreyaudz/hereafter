@@ -45,7 +45,11 @@ const routes = [
 const router = VueRouter.createRouter(
     {
         history: VueRouter.createWebHistory(),
-        routes
+        routes,
+        scrollBehavior(to, from, savedPosition) {
+            // always scroll to top
+            return { top: 0 }
+          },
     }
 );
 

@@ -24,15 +24,14 @@ export default {
           <p class="text-black font-bold leading-none -mb-4 pt-30">
             This Week's Featured Chapter:
           </p>
-          <h3 class="text-black font-bold">
+          <h1 class="text-black font-bold">
             Nibh congue purus feugiat sapien eros.
-          </h3>
+          </h1>
           <p class="text-black">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
             amet ligula.
             <br />
-            <button class="bg-yellow rounded text-black mt-3 py-1  "><u>Read On</u>
-            </button>
+            <router-link class="card-link font-bold" to="chapter?id=2">Click To View Chapter</router-link>
           </p>
         </div>
         <div class="w-full sm:w-1/2">
@@ -56,7 +55,7 @@ export default {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
               amet ligula.
             </p>
-            <button class="bg-yellow rounded text-darken"><u>Add Chapter</u>
+            <button class="bg-yellow rounded text-darken"><u>Read Chapter</u>
             </button>
           </div>
         </div>
@@ -73,7 +72,7 @@ export default {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit
               amet ligula.
             </p>
-            <button class="bg-yellow rounded text-darken"><u>Add Chapter</u>
+            <button class="bg-yellow rounded text-darken"><u>Read Chapter</u>
             </button>
           </div>
         </div>
