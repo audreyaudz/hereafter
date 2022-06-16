@@ -98,7 +98,7 @@ export default {
     </div>
   </div>
   <!-- Browse Chapters -->
-  <div class="bg-lightb">  
+  <div class="bg-lightb">
     <div class=" overflow-hidden flex-1 flex flex-row justify-center bg-lightb ">
     <h2>
       Browse Chapters
