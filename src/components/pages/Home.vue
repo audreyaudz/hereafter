@@ -4,7 +4,6 @@
     <i-layout class="h-full">
       <i-layout-content>
         <HereAfterHero/>        <!-- Main Hero Unit -->
-        <!--WavyLine /-->            <!-- Ornamental/Playful waves under main hero to make page less technical -->
         <FeaturedChapters />    <!-- Featured Chapters Unit-->
         <ShareAndResources/>    <!-- Share your story / Resources-->
         <Contact/>
